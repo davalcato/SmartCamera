@@ -1,0 +1,660 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "11SmartCamera14ViewControllerC"
+provides-member:
+- ["11SmartCamera14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "captureOutput"
+- "viewDidLoad"
+depends-top-level:
+- "AVCaptureConnection"
+- !private "AVCaptureDevice"
+- !private "AVCaptureDeviceInput"
+- "AVCaptureOutput"
+- !private "AVCaptureSession"
+- !private "AVCaptureVideoDataOutput"
+- "AVCaptureVideoDataOutputSampleBufferDelegate"
+- !private "AVCaptureVideoPreviewLayer"
+- "AssignmentPrecedence"
+- "CMSampleBuffer"
+- !private "CMSampleBufferGetImageBuffer"
+- !private "CVPixelBuffer"
+- !private "DispatchQueue"
+- !private "SqueezeNet"
+- !private "StringLiteralType"
+- "UIViewController"
+- !private "VNCoreMLModel"
+- !private "VNCoreMLRequest"
+- "ViewController"
+- !private "print"
+depends-member:
+- !private ["So15AVCaptureDeviceC", "default"]
+- !private ["So20AVCaptureDeviceInputC", "init"]
+- !private ["So14AVCaptureInputC", "init"]
+- !private ["So15AVCaptureOutputC", "init"]
+- !private ["So15AVCaptureOutputC", "setSampleBufferDelegate"]
+- !private ["So16AVCaptureSessionC", "addInput"]
+- !private ["So16AVCaptureSessionC", "addOutput"]
+- !private ["So16AVCaptureSessionC", "init"]
+- !private ["So16AVCaptureSessionC", "startRunning"]
+- !private ["So24AVCaptureVideoDataOutputC", "init"]
+- !private ["So24AVCaptureVideoDataOutputC", "setSampleBufferDelegate"]
+- !private ["So44AVCaptureVideoDataOutputSampleBufferDelegateP", "AVCaptureDevice"]
+- !private ["So44AVCaptureVideoDataOutputSampleBufferDelegateP", "AVCaptureDeviceInput"]
+- !private ["So44AVCaptureVideoDataOutputSampleBufferDelegateP", "AVCaptureSession"]
+- !private ["So44AVCaptureVideoDataOutputSampleBufferDelegateP", "AVCaptureVideoDataOutput"]
+- !private ["So44AVCaptureVideoDataOutputSampleBufferDelegateP", "AVCaptureVideoPreviewLayer"]
+- !private ["So44AVCaptureVideoDataOutputSampleBufferDelegateP", "CMSampleBufferGetImageBuffer"]
+- !private ["So44AVCaptureVideoDataOutputSampleBufferDelegateP", "DispatchQueue"]
+- !private ["So44AVCaptureVideoDataOutputSampleBufferDelegateP", "SqueezeNet"]
+- !private ["So44AVCaptureVideoDataOutputSampleBufferDelegateP", "VNCoreMLModel"]
+- !private ["So44AVCaptureVideoDataOutputSampleBufferDelegateP", "VNCoreMLRequest"]
+- ["So44AVCaptureVideoDataOutputSampleBufferDelegateP", "captureOutput"]
+- !private ["So44AVCaptureVideoDataOutputSampleBufferDelegateP", "print"]
+- !private ["So44AVCaptureVideoDataOutputSampleBufferDelegateP", "view"]
+- ["So44AVCaptureVideoDataOutputSampleBufferDelegateP", ""]
+- !private ["So26AVCaptureVideoPreviewLayerC", "frame"]
+- !private ["So26AVCaptureVideoPreviewLayerC", "init"]
+- !private ["SC11AVMediaTypeV", "video"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So7CALayerC", "addSublayer"]
+- !private ["So7CALayerC", "frame"]
+- !private ["So7CALayerC", "init"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So13CAMediaTimingP", "addSublayer"]
+- !private ["So13CAMediaTimingP", "frame"]
+- !private ["So13CAMediaTimingP", "init"]
+- !private ["s7CVarArgP", "AVCaptureDevice"]
+- !private ["s7CVarArgP", "AVCaptureDeviceInput"]
+- !private ["s7CVarArgP", "AVCaptureSession"]
+- !private ["s7CVarArgP", "AVCaptureVideoDataOutput"]
+- !private ["s7CVarArgP", "AVCaptureVideoPreviewLayer"]
+- !private ["s7CVarArgP", "CMSampleBufferGetImageBuffer"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "SqueezeNet"]
+- !private ["s7CVarArgP", "VNCoreMLModel"]
+- !private ["s7CVarArgP", "VNCoreMLRequest"]
+- !private ["s7CVarArgP", "addInput"]
+- !private ["s7CVarArgP", "addOutput"]
+- !private ["s7CVarArgP", "addSublayer"]
+- ["s7CVarArgP", "captureOutput"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "results"]
+- !private ["s7CVarArgP", "setSampleBufferDelegate"]
+- !private ["s7CVarArgP", "startRunning"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AVCaptureDevice"]
+- !private ["s28CustomDebugStringConvertibleP", "AVCaptureDeviceInput"]
+- !private ["s28CustomDebugStringConvertibleP", "AVCaptureSession"]
+- !private ["s28CustomDebugStringConvertibleP", "AVCaptureVideoDataOutput"]
+- !private ["s28CustomDebugStringConvertibleP", "AVCaptureVideoPreviewLayer"]
+- !private ["s28CustomDebugStringConvertibleP", "CMSampleBufferGetImageBuffer"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "SqueezeNet"]
+- !private ["s28CustomDebugStringConvertibleP", "VNCoreMLModel"]
+- !private ["s28CustomDebugStringConvertibleP", "VNCoreMLRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "addInput"]
+- !private ["s28CustomDebugStringConvertibleP", "addOutput"]
+- !private ["s28CustomDebugStringConvertibleP", "addSublayer"]
+- ["s28CustomDebugStringConvertibleP", "captureOutput"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "results"]
+- !private ["s28CustomDebugStringConvertibleP", "setSampleBufferDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "startRunning"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "AVCaptureDevice"]
+- !private ["s23CustomStringConvertibleP", "AVCaptureDeviceInput"]
+- !private ["s23CustomStringConvertibleP", "AVCaptureSession"]
+- !private ["s23CustomStringConvertibleP", "AVCaptureVideoDataOutput"]
+- !private ["s23CustomStringConvertibleP", "AVCaptureVideoPreviewLayer"]
+- !private ["s23CustomStringConvertibleP", "CMSampleBufferGetImageBuffer"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "SqueezeNet"]
+- !private ["s23CustomStringConvertibleP", "VNCoreMLModel"]
+- !private ["s23CustomStringConvertibleP", "VNCoreMLRequest"]
+- !private ["s23CustomStringConvertibleP", "addInput"]
+- !private ["s23CustomStringConvertibleP", "addOutput"]
+- !private ["s23CustomStringConvertibleP", "addSublayer"]
+- ["s23CustomStringConvertibleP", "captureOutput"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "results"]
+- !private ["s23CustomStringConvertibleP", "setSampleBufferDelegate"]
+- !private ["s23CustomStringConvertibleP", "startRunning"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["So13DispatchQueueC", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "AVCaptureDevice"]
+- !private ["s9EquatableP", "AVCaptureDeviceInput"]
+- !private ["s9EquatableP", "AVCaptureSession"]
+- !private ["s9EquatableP", "AVCaptureVideoDataOutput"]
+- !private ["s9EquatableP", "AVCaptureVideoPreviewLayer"]
+- !private ["s9EquatableP", "CMSampleBufferGetImageBuffer"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- !private ["s9EquatableP", "SqueezeNet"]
+- !private ["s9EquatableP", "VNCoreMLModel"]
+- !private ["s9EquatableP", "VNCoreMLRequest"]
+- !private ["s9EquatableP", "addInput"]
+- !private ["s9EquatableP", "addOutput"]
+- !private ["s9EquatableP", "addSublayer"]
+- ["s9EquatableP", "captureOutput"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "layer"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "results"]
+- !private ["s9EquatableP", "setSampleBufferDelegate"]
+- !private ["s9EquatableP", "startRunning"]
+- !private ["s9EquatableP", "video"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "AVCaptureDevice"]
+- !private ["s8HashableP", "AVCaptureDeviceInput"]
+- !private ["s8HashableP", "AVCaptureSession"]
+- !private ["s8HashableP", "AVCaptureVideoDataOutput"]
+- !private ["s8HashableP", "AVCaptureVideoPreviewLayer"]
+- !private ["s8HashableP", "CMSampleBufferGetImageBuffer"]
+- !private ["s8HashableP", "DispatchQueue"]
+- !private ["s8HashableP", "SqueezeNet"]
+- !private ["s8HashableP", "VNCoreMLModel"]
+- !private ["s8HashableP", "VNCoreMLRequest"]
+- !private ["s8HashableP", "addInput"]
+- !private ["s8HashableP", "addOutput"]
+- !private ["s8HashableP", "addSublayer"]
+- ["s8HashableP", "captureOutput"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "layer"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "results"]
+- !private ["s8HashableP", "setSampleBufferDelegate"]
+- !private ["s8HashableP", "startRunning"]
+- !private ["s8HashableP", "video"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "AVCaptureDevice"]
+- !private ["So8NSCodingP", "AVCaptureDeviceInput"]
+- !private ["So8NSCodingP", "AVCaptureSession"]
+- !private ["So8NSCodingP", "AVCaptureVideoDataOutput"]
+- !private ["So8NSCodingP", "AVCaptureVideoPreviewLayer"]
+- !private ["So8NSCodingP", "CMSampleBufferGetImageBuffer"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- !private ["So8NSCodingP", "SqueezeNet"]
+- !private ["So8NSCodingP", "VNCoreMLModel"]
+- !private ["So8NSCodingP", "VNCoreMLRequest"]
+- !private ["So8NSCodingP", "addSublayer"]
+- ["So8NSCodingP", "captureOutput"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "results"]
+- !private ["So26NSExtensionRequestHandlingP", "AVCaptureDevice"]
+- !private ["So26NSExtensionRequestHandlingP", "AVCaptureDeviceInput"]
+- !private ["So26NSExtensionRequestHandlingP", "AVCaptureSession"]
+- !private ["So26NSExtensionRequestHandlingP", "AVCaptureVideoDataOutput"]
+- !private ["So26NSExtensionRequestHandlingP", "AVCaptureVideoPreviewLayer"]
+- !private ["So26NSExtensionRequestHandlingP", "CMSampleBufferGetImageBuffer"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- !private ["So26NSExtensionRequestHandlingP", "SqueezeNet"]
+- !private ["So26NSExtensionRequestHandlingP", "VNCoreMLModel"]
+- !private ["So26NSExtensionRequestHandlingP", "VNCoreMLRequest"]
+- ["So26NSExtensionRequestHandlingP", "captureOutput"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "AVCaptureConnection"]
+- !private ["So8NSObjectC", "AVCaptureDevice"]
+- !private ["So8NSObjectC", "AVCaptureDeviceInput"]
+- ["So8NSObjectC", "AVCaptureOutput"]
+- !private ["So8NSObjectC", "AVCaptureSession"]
+- !private ["So8NSObjectC", "AVCaptureVideoDataOutput"]
+- !private ["So8NSObjectC", "AVCaptureVideoPreviewLayer"]
+- ["So8NSObjectC", "CMSampleBuffer"]
+- !private ["So8NSObjectC", "CMSampleBufferGetImageBuffer"]
+- !private ["So8NSObjectC", "CVPixelBuffer"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "SqueezeNet"]
+- !private ["So8NSObjectC", "VNCoreMLModel"]
+- !private ["So8NSObjectC", "VNCoreMLRequest"]
+- !private ["So8NSObjectC", "addInput"]
+- !private ["So8NSObjectC", "addOutput"]
+- !private ["So8NSObjectC", "addSublayer"]
+- ["So8NSObjectC", "captureOutput"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "layer"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "results"]
+- !private ["So8NSObjectC", "setSampleBufferDelegate"]
+- !private ["So8NSObjectC", "startRunning"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "AVCaptureDevice"]
+- !private ["So16NSObjectProtocolP", "AVCaptureDeviceInput"]
+- !private ["So16NSObjectProtocolP", "AVCaptureSession"]
+- !private ["So16NSObjectProtocolP", "AVCaptureVideoDataOutput"]
+- !private ["So16NSObjectProtocolP", "AVCaptureVideoPreviewLayer"]
+- !private ["So16NSObjectProtocolP", "CMSampleBufferGetImageBuffer"]
+- !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- !private ["So16NSObjectProtocolP", "SqueezeNet"]
+- !private ["So16NSObjectProtocolP", "VNCoreMLModel"]
+- !private ["So16NSObjectProtocolP", "VNCoreMLRequest"]
+- !private ["So16NSObjectProtocolP", "addInput"]
+- !private ["So16NSObjectProtocolP", "addOutput"]
+- !private ["So16NSObjectProtocolP", "addSublayer"]
+- ["So16NSObjectProtocolP", "captureOutput"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "layer"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "results"]
+- !private ["So16NSObjectProtocolP", "setSampleBufferDelegate"]
+- !private ["So16NSObjectProtocolP", "startRunning"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "addSublayer"]
+- !private ["So14NSSecureCodingP", "frame"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "video"]
+- !private ["s8SequenceP", "init"]
+- !private ["11SmartCamera10SqueezeNetC", "init"]
+- !private ["11SmartCamera10SqueezeNetC", "model"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So21UIAppearanceContainerP", "AVCaptureDevice"]
+- !private ["So21UIAppearanceContainerP", "AVCaptureDeviceInput"]
+- !private ["So21UIAppearanceContainerP", "AVCaptureSession"]
+- !private ["So21UIAppearanceContainerP", "AVCaptureVideoDataOutput"]
+- !private ["So21UIAppearanceContainerP", "AVCaptureVideoPreviewLayer"]
+- !private ["So21UIAppearanceContainerP", "CMSampleBufferGetImageBuffer"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- !private ["So21UIAppearanceContainerP", "SqueezeNet"]
+- !private ["So21UIAppearanceContainerP", "VNCoreMLModel"]
+- !private ["So21UIAppearanceContainerP", "VNCoreMLRequest"]
+- ["So21UIAppearanceContainerP", "captureOutput"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "AVCaptureDevice"]
+- !private ["So18UIContentContainerP", "AVCaptureDeviceInput"]
+- !private ["So18UIContentContainerP", "AVCaptureSession"]
+- !private ["So18UIContentContainerP", "AVCaptureVideoDataOutput"]
+- !private ["So18UIContentContainerP", "AVCaptureVideoPreviewLayer"]
+- !private ["So18UIContentContainerP", "CMSampleBufferGetImageBuffer"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- !private ["So18UIContentContainerP", "SqueezeNet"]
+- !private ["So18UIContentContainerP", "VNCoreMLModel"]
+- !private ["So18UIContentContainerP", "VNCoreMLRequest"]
+- ["So18UIContentContainerP", "captureOutput"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "AVCaptureDevice"]
+- !private ["So18UIFocusEnvironmentP", "AVCaptureDeviceInput"]
+- !private ["So18UIFocusEnvironmentP", "AVCaptureSession"]
+- !private ["So18UIFocusEnvironmentP", "AVCaptureVideoDataOutput"]
+- !private ["So18UIFocusEnvironmentP", "AVCaptureVideoPreviewLayer"]
+- !private ["So18UIFocusEnvironmentP", "CMSampleBufferGetImageBuffer"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- !private ["So18UIFocusEnvironmentP", "SqueezeNet"]
+- !private ["So18UIFocusEnvironmentP", "VNCoreMLModel"]
+- !private ["So18UIFocusEnvironmentP", "VNCoreMLRequest"]
+- ["So18UIFocusEnvironmentP", "captureOutput"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVCaptureDevice"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVCaptureDeviceInput"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVCaptureSession"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVCaptureVideoDataOutput"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVCaptureVideoPreviewLayer"]
+- !private ["So30UIPasteConfigurationSupportingP", "CMSampleBufferGetImageBuffer"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- !private ["So30UIPasteConfigurationSupportingP", "SqueezeNet"]
+- !private ["So30UIPasteConfigurationSupportingP", "VNCoreMLModel"]
+- !private ["So30UIPasteConfigurationSupportingP", "VNCoreMLRequest"]
+- ["So30UIPasteConfigurationSupportingP", "captureOutput"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "AVCaptureConnection"]
+- !private ["So11UIResponderC", "AVCaptureDevice"]
+- !private ["So11UIResponderC", "AVCaptureDeviceInput"]
+- ["So11UIResponderC", "AVCaptureOutput"]
+- !private ["So11UIResponderC", "AVCaptureSession"]
+- !private ["So11UIResponderC", "AVCaptureVideoDataOutput"]
+- !private ["So11UIResponderC", "AVCaptureVideoPreviewLayer"]
+- ["So11UIResponderC", "CMSampleBuffer"]
+- !private ["So11UIResponderC", "CMSampleBufferGetImageBuffer"]
+- !private ["So11UIResponderC", "CVPixelBuffer"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- !private ["So11UIResponderC", "SqueezeNet"]
+- !private ["So11UIResponderC", "VNCoreMLModel"]
+- !private ["So11UIResponderC", "VNCoreMLRequest"]
+- ["So11UIResponderC", "captureOutput"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "layer"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "AVCaptureDevice"]
+- !private ["So30UIResponderStandardEditActionsP", "AVCaptureDeviceInput"]
+- !private ["So30UIResponderStandardEditActionsP", "AVCaptureSession"]
+- !private ["So30UIResponderStandardEditActionsP", "AVCaptureVideoDataOutput"]
+- !private ["So30UIResponderStandardEditActionsP", "AVCaptureVideoPreviewLayer"]
+- !private ["So30UIResponderStandardEditActionsP", "CMSampleBufferGetImageBuffer"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- !private ["So30UIResponderStandardEditActionsP", "SqueezeNet"]
+- !private ["So30UIResponderStandardEditActionsP", "VNCoreMLModel"]
+- !private ["So30UIResponderStandardEditActionsP", "VNCoreMLRequest"]
+- ["So30UIResponderStandardEditActionsP", "captureOutput"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "AVCaptureDevice"]
+- !private ["So16UIStateRestoringP", "AVCaptureDeviceInput"]
+- !private ["So16UIStateRestoringP", "AVCaptureSession"]
+- !private ["So16UIStateRestoringP", "AVCaptureVideoDataOutput"]
+- !private ["So16UIStateRestoringP", "AVCaptureVideoPreviewLayer"]
+- !private ["So16UIStateRestoringP", "CMSampleBufferGetImageBuffer"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- !private ["So16UIStateRestoringP", "SqueezeNet"]
+- !private ["So16UIStateRestoringP", "VNCoreMLModel"]
+- !private ["So16UIStateRestoringP", "VNCoreMLRequest"]
+- ["So16UIStateRestoringP", "captureOutput"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "AVCaptureDevice"]
+- !private ["So18UITraitEnvironmentP", "AVCaptureDeviceInput"]
+- !private ["So18UITraitEnvironmentP", "AVCaptureSession"]
+- !private ["So18UITraitEnvironmentP", "AVCaptureVideoDataOutput"]
+- !private ["So18UITraitEnvironmentP", "AVCaptureVideoPreviewLayer"]
+- !private ["So18UITraitEnvironmentP", "CMSampleBufferGetImageBuffer"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- !private ["So18UITraitEnvironmentP", "SqueezeNet"]
+- !private ["So18UITraitEnvironmentP", "VNCoreMLModel"]
+- !private ["So18UITraitEnvironmentP", "VNCoreMLRequest"]
+- ["So18UITraitEnvironmentP", "captureOutput"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "layer"]
+- ["So16UIViewControllerC", "AVCaptureConnection"]
+- !private ["So16UIViewControllerC", "AVCaptureDevice"]
+- !private ["So16UIViewControllerC", "AVCaptureDeviceInput"]
+- ["So16UIViewControllerC", "AVCaptureOutput"]
+- !private ["So16UIViewControllerC", "AVCaptureSession"]
+- !private ["So16UIViewControllerC", "AVCaptureVideoDataOutput"]
+- !private ["So16UIViewControllerC", "AVCaptureVideoPreviewLayer"]
+- ["So16UIViewControllerC", "CMSampleBuffer"]
+- !private ["So16UIViewControllerC", "CMSampleBufferGetImageBuffer"]
+- !private ["So16UIViewControllerC", "CVPixelBuffer"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- !private ["So16UIViewControllerC", "SqueezeNet"]
+- !private ["So16UIViewControllerC", "VNCoreMLModel"]
+- !private ["So16UIViewControllerC", "VNCoreMLRequest"]
+- ["So16UIViewControllerC", "captureOutput"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "print"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", ""]
+- !private ["So13VNCoreMLModelC", "init"]
+- !private ["So15VNCoreMLRequestC", "init"]
+- !private ["So19VNImageBasedRequestC", "init"]
+- !private ["So9VNRequestC", "init"]
+- !private ["So9VNRequestC", "results"]
+- ["11SmartCamera14ViewControllerC", "AVCaptureConnection"]
+- !private ["11SmartCamera14ViewControllerC", "AVCaptureDevice"]
+- !private ["11SmartCamera14ViewControllerC", "AVCaptureDeviceInput"]
+- ["11SmartCamera14ViewControllerC", "AVCaptureOutput"]
+- !private ["11SmartCamera14ViewControllerC", "AVCaptureSession"]
+- !private ["11SmartCamera14ViewControllerC", "AVCaptureVideoDataOutput"]
+- !private ["11SmartCamera14ViewControllerC", "AVCaptureVideoPreviewLayer"]
+- ["11SmartCamera14ViewControllerC", "CMSampleBuffer"]
+- !private ["11SmartCamera14ViewControllerC", "CMSampleBufferGetImageBuffer"]
+- !private ["11SmartCamera14ViewControllerC", "CVPixelBuffer"]
+- !private ["11SmartCamera14ViewControllerC", "DispatchQueue"]
+- !private ["11SmartCamera14ViewControllerC", "SqueezeNet"]
+- !private ["11SmartCamera14ViewControllerC", "VNCoreMLModel"]
+- !private ["11SmartCamera14ViewControllerC", "VNCoreMLRequest"]
+- ["11SmartCamera14ViewControllerC", "captureOutput"]
+- ["11SmartCamera14ViewControllerC", "deinit"]
+- ["11SmartCamera14ViewControllerC", "init"]
+- !private ["11SmartCamera14ViewControllerC", "print"]
+- !private ["11SmartCamera14ViewControllerC", "view"]
+- ["11SmartCamera14ViewControllerC", "viewDidLoad"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureDevice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureDeviceInput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureVideoDataOutput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVCaptureVideoPreviewLayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMSampleBufferGetImageBuffer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SqueezeNet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "VNCoreMLModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "VNCoreMLRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addInput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOutput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSublayer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "captureOutput"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "results"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSampleBufferDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startRunning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "video"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "video"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "So15AVCaptureDeviceC"
+- !private "So20AVCaptureDeviceInputC"
+- !private "So14AVCaptureInputC"
+- !private "So15AVCaptureOutputC"
+- !private "So16AVCaptureSessionC"
+- !private "So24AVCaptureVideoDataOutputC"
+- "So44AVCaptureVideoDataOutputSampleBufferDelegateP"
+- !private "So26AVCaptureVideoPreviewLayerC"
+- !private "SC11AVMediaTypeV"
+- !private "s23BidirectionalCollectionP"
+- !private "So7CALayerC"
+- !private "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "So13DispatchQueueC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "11SmartCamera10SqueezeNetC"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So13VNCoreMLModelC"
+- !private "So15VNCoreMLRequestC"
+- !private "So19VNImageBasedRequestC"
+- !private "So9VNRequestC"
+- "11SmartCamera14ViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/simd.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Vision.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+interface-hash: "8e9cb4abd373415fcaa4b13e8fdea2b7"

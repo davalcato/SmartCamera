@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.72 clang-900.0.38)"
+options: "624b35310fdfdc4ca1158188a3551b0f"
+build_time: [1519001418, 174211000]
+inputs:
+  "/Users/davalcato/Desktop/SmartCamera/SmartCamera/ViewController.swift": !dirty [1519001413, 0]
+  "/Users/davalcato/Desktop/SmartCamera/SmartCamera/AppDelegate.swift": [1518922537, 0]
+  "/Users/davalcato/Desktop/SmartCamera/Build/Intermediates/SmartCamera.build/Debug-iphonesimulator/SmartCamera.build/DerivedSources/CoreMLGenerated/SqueezeNet/SqueezeNet.swift": [1519001417, 0]
+  "/Users/davalcato/Desktop/SmartCamera/Build/Intermediates/SmartCamera.build/Debug-iphonesimulator/SmartCamera.build/DerivedSources/CoreMLGenerated/Resnet50/Resnet50.swift": [1519001418, 0]
